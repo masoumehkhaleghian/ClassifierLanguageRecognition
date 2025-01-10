@@ -39,7 +39,7 @@ The training dataset is located in the Dataset folder.
 ClassifierLanguageRecognition/
 |-- Dataset/               # Folder containing the training data
 |   |-- data.csv           # Main dataset used for training the model
-|-- Model/                 # Folder for saving the trained model (optional)
+|-- Model/                 # Folder for saving the trained model 
 |-- ClassifierLanguageRecognition.ipynb # Main script to train and test the model
 |-- requirements.txt       # Python dependencies
 |-- README.md              # Project documentation
