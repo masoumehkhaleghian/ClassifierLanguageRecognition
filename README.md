@@ -40,19 +40,13 @@ ClassifierLanguageRecognition/
 |-- Dataset/               # Folder containing the training data
 |   |-- data.csv           # Main dataset used for training the model
 |-- Model/                 # Folder for saving the trained model 
-|-- ClassifierLanguageRecognition.ipynb # Main script to train and test the model
+|-- ClassifierLanguageRecognitionFlatten.ipynb # Flatten Model script to train and test the model
+|-- ClassifierLanguageRecognitionLSTM.ipynb # LSTM Model script to train and test the model
 |-- requirements.txt       # Python dependencies
 |-- README.md              # Project documentation
 ```
 
 ## Getting Started
-
-### Prerequisites
-- Python 3.8.20
-- TensorFlow 2.x
-- Pandas
-- NumPy
-- Scikit-learn
 
 ### Installation
 1. Clone the repository:
@@ -72,7 +66,8 @@ ClassifierLanguageRecognition/
    - Ensure the Dataset/data.csv file is present and formatted correctly with two columns: `sentence` (text data) and `language` (language labels).
 
 2. Train the model:
-   - Open the `ClassifierLanguageRecognition.ipynb` notebook and run all cells to train the model.
+   - Open the `ClassifierLanguageRecognitionFlatten.ipynb` notebook and run all cells to train the model.
+   - Open the `ClassifierLanguageRecognitionLSTM.ipynb` notebook and run all cells to train the model.
 
 3. Test the model:
    - Modify the notebook to include your test cases or integrate the trained model into your application.
@@ -86,9 +81,10 @@ sentence,language
 ```
 
 ### Example Output
-For the input "Bonjour, comment ça va?", the output will be:
+For the input "این جمله‌ای است که به زبان فارسی نوشته شده و شامل بیست کلمه برای آزمایش مدل تشخیص زبان است.", the output will be:
 ```
-Predicted Language: French
+Input Text: این جمله‌ای است که به زبان فارسی نوشته شده و شامل بیست کلمه برای آزمایش مدل تشخیص زبان است.
+Predicted Language: persian
 ```
 
 ## Model Details
