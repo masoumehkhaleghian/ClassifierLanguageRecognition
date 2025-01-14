@@ -90,5 +90,6 @@ Predicted Language: persian
 ## Model Details
 - Framework: TensorFlow
 - Algorithm: Neural network classifier
+- Algorithm: LSTM network classifier
 - Evaluation Metrics: Accuracy, F1-score
 
